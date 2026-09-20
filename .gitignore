@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# No .txt or .csv generated files
+*.csv
+*.env
+										
+		
+
+# No backup or old folders or data folders
+/_backups/
+/old_*/
+/20??-??-??/
+																		
+		  
+										   
+					 
+
+# Misc files
+*.DS_Store
+*.python-version
+jira_debug_dump.json
